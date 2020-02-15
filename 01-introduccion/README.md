@@ -40,3 +40,11 @@ En javascript hay varias formas de declarar variables:
 
  - **Operaciones** En java script para hacer operaciones con los numeros de igual manera que otros lenguajes puedes hacerlos. Para ejemplos revisa el documento 03-Nuemros.js
 
+## funciones
+
+> Las funciones son bloques de código reutizables.
+
+Para ver ejemplos de funciones ver el archivo 04-funciones.js
+
+
+
