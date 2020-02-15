@@ -38,5 +38,5 @@ En javascript hay varias formas de declarar variables:
 
 ## Números
 
-
+ - **Operaciones** En java script para hacer operaciones con los numeros de igual manera que otros lenguajes puedes hacerlos. Para ejemplos revisa el documento 03-Nuemros.js
 
