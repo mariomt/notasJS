@@ -38,13 +38,21 @@ En javascript hay varias formas de declarar variables:
 
 ## Números
 
- - **Operaciones** En java script para hacer operaciones con los numeros de igual manera que otros lenguajes puedes hacerlos. Para ejemplos revisa el documento 03-Nuemros.js
+ - **Operaciones** En javascript para hacer operaciones con los numeros de igual manera que otros lenguajes puedes hacerlos. Para ejemplos revisa el documento 03-Nuemros.js
 
 ## funciones
 
 > Las funciones son bloques de código reutizables.
 
 Para ver ejemplos de funciones ver el archivo 04-funciones.js
+
+### Alcance de las funciones
+
+- Si una variable no está definida dentro del cuerpo de la función, se dice que esa variable es de alcance global (puede ser accedida desde cualquier función).
+
+>  **Side effect:** El efecto colateral viene ocasionado cuando una función modifica valores de variables que no están definidas dentro de ella.
+
+
 
 
 
