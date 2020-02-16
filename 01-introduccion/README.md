@@ -57,7 +57,8 @@ Para ver ejemplos de funciones ver el archivo _04-funciones.js_
 Gracias a los objetos podemos agrupar características de alguna cosa de la vida real. (Ver el archivo _06-Objetos.js_ para ejemplos)
 
 
-
+### Desestruccuración de objetos
+Asi como podemo agrupar atributos en un objeto tambien podemos separarlos en variables independiente, para esto nos ayuda la desestructuración del mismo.
 
 
 
