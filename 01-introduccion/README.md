@@ -44,13 +44,19 @@ En javascript hay varias formas de declarar variables:
 
 > Las funciones son bloques de código reutizables.
 
-Para ver ejemplos de funciones ver el archivo 04-funciones.js
+Para ver ejemplos de funciones ver el archivo _04-funciones.js_
 
 ### Alcance de las funciones
 
-- Si una variable no está definida dentro del cuerpo de la función, se dice que esa variable es de alcance global (puede ser accedida desde cualquier función).
+- Si una variable no está definida dentro del cuerpo de la función, se dice que esa variable es de alcance global (puede ser accedida desde cualquier función). Ver el archivo _05-AlcanceDeFunciones.js_ para ejemplos.
 
 >  **Side effect:** El efecto colateral viene ocasionado cuando una función modifica valores de variables que no están definidas dentro de ella.
+
+
+## Objetos
+Gracias a los objetos podemos agrupar características de alguna cosa de la vida real. (Ver el archivo _06-Objetos.js_ para ejemplos)
+
+
 
 
 
