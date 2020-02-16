@@ -61,5 +61,10 @@ Gracias a los objetos podemos agrupar características de alguna cosa de la vida
 Asi como podemo agrupar atributos en un objeto tambien podemos separarlos en variables independiente, para esto nos ayuda la desestructuración del mismo.
 
 
+## Parámetros como referencia o valor
+
+Cuando enviamos un objeto como parámetro de una función y modificamos alguno de sus atributos estos cambios se harán de manera global, es decir cuando pasamos un objeto a una función la estamos pasando por referencia.
+
+
 
 
