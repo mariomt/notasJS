@@ -114,3 +114,7 @@ Ver ejemplo en el archivo _11-returnandoValores.js_
 ## Arrow functions
 Las funciones de flecha nos permiten generar una nomenclatura más corta para escribir expresiones de funciones. Al escribir estas funciones no es necesario escribir la palabra _function_ ni el _return_ no las llaves. Tambien hace pequeños cambios en cuanto a su scope. Ver ejemplo en _12-arrowFunctions.js_
 
+
+## Arreglos
+Estas estructuras de datos nos permitirán agrupar datos dentro de una colección de datos.
+Ver ejemplo en _17-Arreglos.js_
