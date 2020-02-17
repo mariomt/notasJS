@@ -65,6 +65,34 @@ Asi como podemo agrupar atributos en un objeto tambien podemos separarlos en var
 
 Cuando enviamos un objeto como parámetro de una función y modificamos alguno de sus atributos estos cambios se harán de manera global, es decir cuando pasamos un objeto a una función la estamos pasando por referencia.
 
+## Comparaciones
 
+En javascript podemos comparar dos variables utilizando un doble igual o utilizando un triple igual.
+`x == y`
+Cuando comparamos con doble igual javascript lo que hace es llevar a un mismo tipo de dato las dos variables para despues comparar su contenido, es decir, si comparamos un entero contra un string javascript convertirá el entero a string y después los compara.
+`x === y`
+Ciando comparamos con un triple igual javascript lo que hace primero que nada es comparar el tipo de datos de las variables si no son iguales la comparación nos devolverá un _false_. Es decir, con la comparación de triple igual si importa el tipo de dato.
+> Es recomendable utilizar siempre el triple igual, a menos que sea estrictamente necesario usar el doble igual, no lo utilice.
 
+### Comparación de objetos
+
+Cuando hacemos la comparación de dos objetos, estos siempre nos devolverán un _false_, al menos que el objeto este apuntando exactamente a la misma referencia. Por ejemplo...
+
+  
+
+    var persona1 = { 
+    nombre: 'Mario' 
+    }, 
+    persona2 = { 
+    nombre: 'Mario' 
+    }
+    
+    if(persona1 == persona2) {
+	    Console.log('iguales');
+	} else {
+		Console.log('diferentes')
+	}
+	// devolverá diferentes
+
+Aun que usemos el comparador de triple igual javascript nos seguirá arrojando el mismo resultado, ya que realmente no son el mismo objeto (no están en la misma dirección de memoria).
 
