@@ -105,3 +105,7 @@ Las estructuras de control nos van a permitir decidir si un código se ejecuta o
 Lo lo que nos permite esto es que despues de que una función trate un valor, esta nos devuelva el resultado de la operación para poder seguir manipulando dicha información.
 
 Ver ejemplo en el archivo _11-returnandoValores.js_
+
+
+## Arrow functions
+Las funciones de flecha nos permiten generar una nomenclatura más corta para escribir expresiones de funciones. Al escribir estas funciones no es necesario escribir la palabra _function_ ni el _return_ no las llaves. Tambien hace pequeños cambios en cuanto a su scope.

@@ -43,12 +43,17 @@ function esMayorDeEdad({ edad }) {
   return edad>=MAYORIA_DE_EDAD;
 }
 
+// function imprimirSiEsMayorDeEdad(persona) {
+//   if(esMayorDeEdad(persona)) {
+//     console.log(`${persona.nombre} es Mayor de edad`);
+//   } else {
+//     console.log(`${persona.nombre} es Menor de edad`);
+//   }
+// }
+
+//if ternario
 function imprimirSiEsMayorDeEdad(persona) {
-  if(esMayorDeEdad(persona)) {
-    console.log(`${persona.nombre} es Mayor de edad`);
-  } else {
-    console.log(`${persona.nombre} es Menor de edad`);
-  }
+  esMayorDeEdad(persona1) ? console.log(`${persona.nombre} es Mayor de edad`) : console.log(`${persona.nombre} es Menor de edad`);
 }
 
 imprimirSiEsMayorDeEdad(persona1);
