@@ -129,3 +129,14 @@ Ver ejemplo en _19-transformarArreglos.js_
 ### funcion reduce()
 Esta función nos permite reducir, mediante una función que se aplica a cada uno de los elementos del arreglo, todos los elementos de dicho arreglo, a un valor único.
 Ver ejemplo en _20-ReducirArreglo.js_
+
+
+## Clases en JavaScript
+> Cuando se habla de objetos de javascript estamos hablando de prototipos y no tanto de clases, si bien en las nuevas versiones de javascript existen las clases, estas alfinal terminan siendo prototipos.
+
+Las clases son funciones cuya sintaxis tienen dos componentes:
+- expresiones
+- declaraciones
+
+### prototipos
+Ver el primer ejemplo en _21-prototipos.js_
