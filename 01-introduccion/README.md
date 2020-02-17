@@ -25,8 +25,7 @@ Como ya sabemos y lo hemos visto en todos nuestros cursos de programación, una 
 
 En javascript hay varias formas de declarar variables:
 
-- Var
-- Let
+- **Var**
 
 ## Strings
 
@@ -58,12 +57,12 @@ Gracias a los objetos podemos agrupar características de alguna cosa de la vida
 
 
 ### Desestruccuración de objetos
-Asi como podemo agrupar atributos en un objeto tambien podemos separarlos en variables independiente, para esto nos ayuda la desestructuración del mismo.
+Asi como podemo agrupar atributos en un objeto tambien podemos separarlos en variables independiente, para esto nos ayuda la desestructuración del mismo. Ver ejemplo en _07-Destructuring.js_
 
 
 ## Parámetros como referencia o valor
 
-Cuando enviamos un objeto como parámetro de una función y modificamos alguno de sus atributos estos cambios se harán de manera global, es decir cuando pasamos un objeto a una función la estamos pasando por referencia.
+Cuando enviamos un objeto como parámetro de una función y modificamos alguno de sus atributos estos cambios se harán de manera global, es decir cuando pasamos un objeto a una función la estamos pasando por referencia. Ver ejemplo en _08-referenciaOvalor.js_
 
 ## Comparaciones
 
@@ -73,6 +72,8 @@ Cuando comparamos con doble igual javascript lo que hace es llevar a un mismo ti
 `x === y`
 Ciando comparamos con un triple igual javascript lo que hace primero que nada es comparar el tipo de datos de las variables si no son iguales la comparación nos devolverá un _false_. Es decir, con la comparación de triple igual si importa el tipo de dato.
 > Es recomendable utilizar siempre el triple igual, a menos que sea estrictamente necesario usar el doble igual, no lo utilice.
+
+ver ejemplo en _09-comparaciones.js_
 
 ### Comparación de objetos
 
@@ -99,7 +100,8 @@ Aun que usemos el comparador de triple igual javascript nos seguirá arrojando e
 ## Estructuras de control
 Las estructuras de control nos van a permitir decidir si un código se ejecuta o no se ejecuta o si se ejecuta múltiples veces hasta que se cumpla una condición dada.
 
-- **if**
+- **if** Ver ejemplo en _10-condicionales.js_
+- **for** Ver ejemplo en 13-for.js
 
 ## Funciones que regresan valores
 Lo lo que nos permite esto es que despues de que una función trate un valor, esta nos devuelva el resultado de la operación para poder seguir manipulando dicha información.
@@ -108,4 +110,6 @@ Ver ejemplo en el archivo _11-returnandoValores.js_
 
 
 ## Arrow functions
-Las funciones de flecha nos permiten generar una nomenclatura más corta para escribir expresiones de funciones. Al escribir estas funciones no es necesario escribir la palabra _function_ ni el _return_ no las llaves. Tambien hace pequeños cambios en cuanto a su scope.
+Las funciones de flecha nos permiten generar una nomenclatura más corta para escribir expresiones de funciones. Al escribir estas funciones no es necesario escribir la palabra _function_ ni el _return_ no las llaves. Tambien hace pequeños cambios en cuanto a su scope. Ver ejemplo en _12-arrowFunctions.js_
+
+

@@ -24,7 +24,7 @@ var persona2 = {
 // ejemplo2 mejorado
 
 // function esMayorDeEdad({ edad }) {
-//   return edad>=18;
+//   return edad>=18; // magic number al numero que aparece asi nomas
 // }
 
 // function imprimirSiEsMayorDeEdad(persona) {
