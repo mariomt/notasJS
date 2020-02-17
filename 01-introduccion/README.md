@@ -104,6 +104,7 @@ Las estructuras de control nos van a permitir decidir si un código se ejecuta o
 - **for** Ver ejemplo en _13-for.js_
 - **while** Ver ejemplo en _14-while.js_
 - **do-while** Ver ejemplo en _15-doWhile.js_
+- **switch** Ver ejemplo en _16-switch.js_
 
 ## Funciones que regresan valores
 Lo lo que nos permite esto es que despues de que una función trate un valor, esta nos devuelva el resultado de la operación para poder seguir manipulando dicha información.
