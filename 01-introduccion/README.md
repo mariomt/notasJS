@@ -96,3 +96,11 @@ Cuando hacemos la comparación de dos objetos, estos siempre nos devolverán un 
 
 Aun que usemos el comparador de triple igual javascript nos seguirá arrojando el mismo resultado, ya que realmente no son el mismo objeto (no están en la misma dirección de memoria).
 
+## Estructuras de control
+Las estructuras de control nos van a permitir decidir si un código se ejecuta o no se ejecuta o si se ejecuta múltiples veces hasta que se cumpla una condición dada.
+
+- **if**
+
+
+
+
