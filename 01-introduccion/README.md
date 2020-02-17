@@ -121,3 +121,7 @@ Ver ejemplo en _17-Arreglos.js_
 
 ### Filtrar arreglos
 Ver ejemplo en _18-filtrarArreglo.js_
+
+### Función map
+Esta función a diferencia de filter, nos devolverá un nuevo arreglo en el cual modificará cada uno de los elementos que le pasemos del arreglo original.
+Ver ejemplo en _19-transformarArreglos.js_
