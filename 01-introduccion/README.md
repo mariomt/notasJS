@@ -118,3 +118,6 @@ Las funciones de flecha nos permiten generar una nomenclatura más corta para es
 ## Arreglos
 Estas estructuras de datos nos permitirán agrupar datos dentro de una colección de datos.
 Ver ejemplo en _17-Arreglos.js_
+
+### Filtrar arreglos
+Ver ejemplo en _18-filtrarArreglo.js_
