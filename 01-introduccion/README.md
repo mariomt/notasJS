@@ -168,3 +168,6 @@ Ver ejemplo en _28-callbacks.js_
 ### Manejando el Orden y el Asincronismo en JavaScript
 Una manera de asegurar que se respeten la secuencia en que hemos realizado múltiples tareas es utilizando callbacks, con lo que se ejecutará luego, en cada llamada. Lo importante es que el llamado al callback se haga a través de una función anónima. Sin embargo, al hacerlo de esta manera generamos una situación poco deseada llamada callbackHell.
 Ver ejemplo en _30-ManejoOrdenYAsincronismo.js_
+
+### Manejo de errores con callbacks
+Ver ejemplo en _31-ManejoErroresCallbacks.js_
