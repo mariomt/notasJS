@@ -158,3 +158,6 @@ La palabra reservada _this_ en javascript se comporta un poco diferente que en o
 ## Funciones como parámetros
 En JavaScript, los parámetros de funciones son por defecto undefined. De todos modos, en algunas situaciones puede ser útil colocar un valor por defecto diferente que lo evalúe como verdadero.
 
+## Asincronismo en JavaScript
+JavaScript sólo pude hacer una cosa a la vez, sin embargo; es capaz de delegar la ejecución de ciertas funciones a otro procesos. Este modelo de concurrencia se llama EventLoop.
+
