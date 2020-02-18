@@ -161,3 +161,6 @@ En JavaScript, los parámetros de funciones son por defecto undefined. De todos 
 ## Asincronismo en JavaScript
 JavaScript sólo pude hacer una cosa a la vez, sin embargo; es capaz de delegar la ejecución de ciertas funciones a otro procesos. Este modelo de concurrencia se llama EventLoop.
 
+## Callbacks
+Un callback es una función que se pasa a otra función como un argumento. Esta función se invoca, después, dentro de la función externa para completar alguna acción.
+
