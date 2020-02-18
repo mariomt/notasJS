@@ -171,3 +171,23 @@ Ver ejemplo en _30-ManejoOrdenYAsincronismo.js_
 
 ### Manejo de errores con callbacks
 Ver ejemplo en _31-ManejoErroresCallbacks.js_
+
+## Promesas
+Las promesas tienen tres estados:
+- **pending**
+- **fullfilled**
+- **rejected**
+Las promesas se invocan de la siguiente forma:
+
+	new Promise( ( resolve,reject ) => {
+		// --- Llamado asíncrono
+		if( todoOK ) {
+			// -- Se ejecuto el llamado exitosamente
+			resolve()
+		} else {
+			// -- hubo un error en el llamado
+			reject()
+		}
+	})
+
+  Ver ejemplo en _32-Promesas.js_
