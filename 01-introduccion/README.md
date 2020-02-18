@@ -137,8 +137,8 @@ Ver ejemplo en _20-ReducirArreglo.js_
 > JavaScript como tal no soporta la herencia, esto es ya que sus clases no son clases exactamente si no que son prototipos. Pero no obstante si existe la herencia prototipal en javascript.
 
 ### herencia protitipal
-
-Ver despues de prototipo el ejemplo en _24-
+Ver despues de prototipo el ejemplo en _24-herenciaPrototipal.js_
+Ver ejemplo de la misma herencia pero usando clases _25-clasesHerencia.js_
 
 
 
@@ -154,4 +154,7 @@ Ver el primer ejemplo en _21-prototipos.js_
 El error del contexto de _this_ en javascript es uno de los errores más comunes.
 La palabra reservada _this_ en javascript se comporta un poco diferente que en otros lenguajes. En general, el valor _this_ está determinado por cómo se invoca a la función. No puede ser establecida mediante una asignación en tiempo de ejecución, y puede ser diferente cada vez que la función es invocada. ES5 introdujo el método _bind()_ para establecer el valor de la función _this_ indepenfientemente de como es llamada, y ES2015 introdujo las funciones flecha que no proporcionan su propio "binding" de _this_ (se mantiene el valor de this del contexto léxico que envuelve a la función).
  Ver más [aquí](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/this).
+
+## Funciones como parámetros
+En JavaScript, los parámetros de funciones son por defecto undefined. De todos modos, en algunas situaciones puede ser útil colocar un valor por defecto diferente que lo evalúe como verdadero.
 
