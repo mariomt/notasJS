@@ -41,7 +41,7 @@ En javascript hay varias formas de declarar variables:
 
 ## funciones
 
-> Las funciones son bloques de código reutizables.
+> Las funciones son bloques de código reutizables. 	Las funciones declaradas normalmente son lladas _functions declaration_, mientras que las funciones que se almacenan en una variable son llamadas _functions expresion_
 
 Para ver ejemplos de funciones ver el archivo _04-funciones.js_
 
