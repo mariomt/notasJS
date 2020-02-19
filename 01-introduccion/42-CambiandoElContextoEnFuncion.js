@@ -20,5 +20,7 @@ function saludar(saludo = 'Hola') {
 
 // si queremos ejecutar una función cambiando su contexto es necesario usar la función call
 saludar.call(persona1,'Hola Che');
-saludar.apply(persona1, ['Hola che']);
+saludar.apply(persona1, ['Hola che']); // la diferencia es como se mandan los parametros, aquí se envían en un arreglo
+
+
 
