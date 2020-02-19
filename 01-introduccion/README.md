@@ -191,3 +191,6 @@ Las promesas se invocan de la siguiente forma:
 	})
 
   Ver ejemplo en _32-Promesas.js_
+
+## Async-Await
+Aync-await es la manera más simple y clara de realizar tareas asíncronas. Await detiene la ejecución del programa hasta que todas las promesas sean resueltas. Para poder utilizar esta forma, hay que colocar async antes de la definción, y encerrar el llamado a _promises.all()_ detro de un bloque try-catch
